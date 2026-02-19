@@ -1,0 +1,71 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyce Perfumaria & Acessórios</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="navbar">
+  <a href="#"> <div class="logo">Joyce Perfumaria & Acessórios</div> </a>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+<div class="search-filtros">
+ <input type="text"  id="busca"  placeholder="Buscar produto..."  oninput="buscarProduto()">
+  <div class="filtros">
+    <button onclick="filtrar('todos')">Todos</button>
+    <button onclick="filtrar('joia')">Joias</button>
+    <button onclick="filtrar('cosmetico')">Cosméticos</button>
+  </div>
+</div>
+
+
+<section class="banner">
+    <div class="banner-content">
+        <h1>Beleza e elegância para você</h1>
+        <p>Joias e cosméticos originais com entrega rápida</p>
+        <button onclick="scrollProdutos()">Ver Produtos</button>
+    </div>
+</section>
+
+ <section id="produtos">
+     <h2>Nossos Produtos</h2>
+    <div class="sub-filtros" id="sub-filtros"></div>
+     <div class="grid" id="lista-produtos">
+            <!-- produtos vão aparecer aqui -->
+     </div>
+ </section> 
+
+<footer id="contato">
+  <p> Joyce Perfumaria & Acessórios <br> © 2026</p>
+  <p>WhatsApp: (71) 981049000</p>
+</footer>
+
+<!-- BOTÃO FLUTUANTE -->
+<div class="cart-icon" id="cart-icon" onclick="toggleCart()">🛒 <span id="cart-count">0</span></div>
+
+<!-- PAINEL DO CARRINHO -->
+<div id="cart-panel" class="cart-panel">
+    <h2>Seu Carrinho</h2>
+
+    <div id="cart-items-wrapper">
+        <div id="cart-items"></div>
+    </div>
+
+    <div id="cart-footer">
+        <div id="cart-total"></div>
+        <button onclick="finalizarPedido()">Finalizar no WhatsApp</button>
+    </div>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
