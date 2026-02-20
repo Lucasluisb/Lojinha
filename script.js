@@ -115,16 +115,20 @@ function buscarProduto() {
         .toLowerCase();
 
     const filtrados = produtos.filter(produto =>
-        produto.nome.toLowerCase().includes(texto)
+        produto.nome.toLowerCase().includes(texto) ||
+        produto.categoria.toLowerCase().includes(texto) ||
+        produto.sub.toLowerCase().includes(texto) ||
+        produto.descricao.toLowerCase().includes(texto)
     );
 
     mostrarProdutos(filtrados);
 }
-
 /* ENTER funcionar */
 document.getElementById("busca")
-.addEventListener("keypress", function(e){
-    if(e.key === "Enter") buscarProduto();
+.addEventListener("keydown", function(e){
+    if (e.key === "Enter") {
+        buscarProduto();
+    }
 });
 
 const subFiltrosContainer = document.getElementById("sub-filtros");
