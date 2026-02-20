@@ -5,6 +5,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+
 }
 
 header {
@@ -74,21 +76,48 @@ header h1 {
     margin-bottom: 30px;
 }
 
-#busca {
-    width: 90%;
-    max-width: 400px;
-    padding: 12px 20px;
-    border-radius: 50px;
-    border: 1px solid #ddd;
-    font-size: 16px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    transition: all 0.3s ease;
+.barra-busca {
+    display: flex;
+    width: 100%;
 }
 
-#busca:focus {
-    outline: none;
-    border-color: #d4af37;
-    box-shadow: 0 0 8px rgba(212,175,55,0.4);
+.barra-busca input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px 0 0 8px;
+}
+
+.barra-busca button {
+    padding: 10px 15px;
+    border: none;
+    background: #ff4d6d;
+    color: white;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+
+
+.search-filtros {
+    display: flex;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.search-filtros input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px 0 0 8px;
+}
+
+.search-filtros button {
+    padding: 10px 15px;
+    border: none;
+    background: #ff4d6d;
+    color: white;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
 }
 
 /* Sticky padrão */
@@ -155,8 +184,7 @@ header h1 {
 
 .banner {
     height: 70vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-                url("https://images.unsplash.com/photo-1512496015851-a90fb38ba796");
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/banner.png);
     min-height: 50vh;
     padding: 20px;
 
@@ -207,6 +235,8 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
+    align-items: start;
+
 
     
 }
@@ -222,22 +252,41 @@ button:hover {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    transition: transform 0.1s, box-shadow 0.1s;
+    transition: 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     
   
+}
+.card:hover {
+    transform: translateY(-5px);
 }
 
 
 
+
 .card img {
-    object-fit: cover;
-    height: 200px;
     width: 100%;
+    height: 200px;      /* altura fixa */
+    object-fit: cover;  /* corta sem distorcer */
+    border-radius: 8px;
 }
 
 .card:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.descricao {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.preco {
+    font-weight: bold;
+    color: #ff4d6d;
 }
 
 .card button {
@@ -345,16 +394,17 @@ footer {
 
 /* Botão WhatsApp */
 .cart-panel button {
-    padding: 25px;
-    background: #4ec025;
-    color: #fff;
-    font-weight: bold;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
+    position: sticky;
+    bottom: 0;
 
-    /* empurra um pouco pra cima */
-    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+
+    background: #25d366;
+    color: white;
+    border: none;
+    border-radius: 8px;
 }
 
 .cart-item .remove-btn {
@@ -381,12 +431,12 @@ footer {
 /* Responsivo mobile */
 @media (max-width: 768px) {
     .cart-item {
-        flex-direction: row;   /* continua horizontal, mas com gap */
-        font-size: 14px;       /* textos menores */
+        flex-direction: row;   
+        font-size: 14px;       
     }
 
     .cart-panel {
-        width: 50%;           /* ocupa toda a tela */
+        width: 50%;           
         padding: 15px;
     }
 
@@ -395,6 +445,10 @@ footer {
         bottom: 15px;
         width: calc(100% - 30px);
         margin-top: auto;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -408,6 +462,7 @@ footer {
 @media (max-width: 480px) {
     .grid {
         grid-template-columns: 1fr; /* um card por linha */
+       
     }
 }
 
@@ -430,6 +485,15 @@ footer {
         width: 90%;
     }
 
+     .card img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;  /* corta sem distorcer */
+        border-radius: 8px;
+    }
+
+   
+
 }
 
 @media (max-width: 480px) {
@@ -439,6 +503,7 @@ footer {
         gap: 8px;                      /* espaço menor entre botões */
         padding: 8px 5px;              /* padding reduzido */
         -webkit-overflow-scrolling: touch; /* scroll suave no iOS */
+        
     }
 
     .sub-filtros button {
@@ -446,6 +511,7 @@ footer {
         padding: 6px 12px;             /* menor para caber na tela */
         font-size: 14px;                /* fonte menor */
     }
+
 }
 
 

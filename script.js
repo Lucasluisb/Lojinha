@@ -1,30 +1,30 @@
 const produtos = [
-    { nome: "Anel Prata", preco: 60, categoria: "joia", sub: "prata", img: "img/Anel_prata.jpeg" },
-    { nome: "Anel Prata", preco: 60, categoria: "joia", sub: "prata", img: "img/anel_prata01.jpeg" },
-    { nome: "Argolas", preco: 60, categoria: "joia", sub: "prata", img: "img/argolas.jpeg" },
-    { nome: "Argolas", preco: 60, categoria: "joia", sub: "prata", img: "img/argola_01.jpeg" },
-    { nome: "Brincos", preco: 60, categoria: "joia", sub: "prata", img: "img/brinco_prata01.jpeg" },
-    { nome: "Brincos", preco: 60, categoria: "joia", sub: "prata", img: "img/brinco.jpeg" },
-    { nome: "Colar", preco: 60, categoria: "joia", sub: "prata", img: "img/colar_prata.png" },
-    { nome: "Colar", preco: 60, categoria: "joia", sub: "prata", img: "img/colar_prata02.jpeg" },
-    { nome: "Colar", preco: 60, categoria: "joia", sub: "prata", img: "img/colar.jpeg" },
-    { nome: "Colar", preco: 60, categoria: "joia", sub: "prata", img: "img/colar01.jpeg" },
-    { nome: "Brincos Pares", preco: 60, categoria: "joia", sub: "prata", img: "img/pares_de_brincos.jpeg" },
-    { nome: "Piercing Nariz", preco: 60, categoria: "joia", sub: "prata", img: "img/piercing_nariz.jpeg" },
-    { nome: "Piercing", preco: 60, categoria: "joia", sub: "prata", img: "img/piercing_prata.jpeg" },
-    { nome: "Piercing", preco: 60, categoria: "joia", sub: "prata", img: "img/piercing_prta01.jpeg" },
-    { nome: "Piercing Tragus", preco: 60, categoria: "joia", sub: "prata", img: "img/piercing_tragus.jpeg" },
-    { nome: "Pulseira", preco: 60, categoria: "joia", sub: "prata", img: "img/pulseira.jpeg" },
+    { nome: "Anel Prata", preco: 60, categoria: "joia", sub: "prata", img: "img/Anel_prata.jpeg" , descricao:"Joia folheada a ouro"},
+    { nome: "Anel Prata", preco: 60, categoria: "joia", sub: "prata", img: "img/anel_prata01.jpeg", descricao:"Joia folheada a ouro" },
+    { nome: "Argolas", preco: 60, categoria: "joia", sub: "prata", img: "img/argolas.jpeg", descricao:"Joia folheada a ouro" },
+    { nome: "Argolas", preco: 60, categoria: "joia", sub: "prata", img: "img/argola_01.jpeg" , descricao:"Joia folheada a ouro"},
+    { nome: "Brincos", preco: 60, categoria: "joia", sub: "prata", img: "img/brinco_prata01.jpeg", descricao:"Joia folheada a ouro" },
+    { nome: "Brincos", preco: 60, categoria: "joia", sub: "prata", img: "img/brinco.jpeg", descricao:"Joia folheada a ouro" },
+    { nome: "Colar", preco: 60, categoria: "joia", sub: "prata", img: "img/colar_prata.png", descricao:"Joia folheada a ouro" },
+    { nome: "Colar", preco: 60, categoria: "joia", sub: "prata", img: "img/colar_prata02.jpeg", descricao:"Joia folheada a ouro" },
+    { nome: "Colar", preco: 60, categoria: "joia", sub: "prata", img: "img/colar.jpeg", descricao:"Joia folheada a ouro" },
+    { nome: "Colar", preco: 60, categoria: "joia", sub: "prata", img: "img/colar01.jpeg", descricao:"Joia folheada a ouro" },
+    { nome: "Brincos Pares", preco: 60, categoria: "joia", sub: "prata", img: "img/pares_de_brincos.jpeg", descricao:"Joia folheada a ouro" },
+    { nome: "Piercing Nariz", preco: 60, categoria: "joia", sub: "prata", img: "img/piercing_nariz.jpeg", descricao:"Joia folheada a ouro" },
+    { nome: "Piercing", preco: 60, categoria: "joia", sub: "prata", img: "img/piercing_prata.jpeg", descricao:"Joia folheada a ouro" },
+    { nome: "Piercing", preco: 60, categoria: "joia", sub: "prata", img: "img/piercing_prta01.jpeg", descricao:"Joia folheada a ouro" },
+    { nome: "Piercing Tragus", preco: 60, categoria: "joia", sub: "prata", img: "img/piercing_tragus.jpeg", descricao:"Joia folheada a ouro" },
+    { nome: "Pulseira", preco: 60, categoria: "joia", sub: "prata", img: "img/pulseira.jpeg", descricao:"Joia folheada a ouro" },
 
 
 
 
 
-    { nome: "Colar Folheado", preco: 80, categoria: "joia", sub: "folheado", img: "https://via.placeholder.com/200" },
+    { nome: "Colar Folheado", preco: 80, categoria: "joia", sub: "folheado", img: "https://via.placeholder.com/200", descricao:"Joia folheada a ouro" },
     
-    { nome: "Perfume Natura", preco: 120, categoria: "cosmetico", sub: "natura", img: "https://via.placeholder.com/200" },
-    { nome: "Creme O Boticário", preco: 40, categoria: "cosmetico", sub: "oboticario", img: "https://via.placeholder.com/200" },
-    { nome: "Eudora Deo Colônia", preco: 80, categoria: "cosmetico", sub: "eudora", img: "https://via.placeholder.com/200" },
+    { nome: "Perfume Natura", preco: 120, categoria: "cosmetico", sub: "natura", img: "https://via.placeholder.com/200", descricao:"Joia folheada a ouro" },
+    { nome: "Creme O Boticário", preco: 40, categoria: "cosmetico", sub: "oboticario", img: "https://via.placeholder.com/200", descricao:"Joia folheada a ouro" },
+    { nome: "Eudora Deo Colônia", preco: 80, categoria: "cosmetico", sub: "eudora", img: "https://via.placeholder.com/200", descricao:"Joia folheada a ouro" },
 ];
 
 function scrollProdutos() {
@@ -42,6 +42,7 @@ function mostrarProdutos(listaProdutos) {
         card.innerHTML = `
             <img src="${produto.img}">
             <h3>${produto.nome}</h3>
+            <p class="descricao">${produto.descricao}</p>
             <p>R$ ${produto.preco.toFixed(2)}</p>
             <button>Adicionar ao carrinho</button>
         `;
@@ -108,11 +109,23 @@ function filtrar(categoria) {
 }
 
 function buscarProduto() {
-    const texto = document.getElementById("busca").value.toLowerCase();
-    mostrarProdutos(produtos.filter(p => p.nome.toLowerCase().includes(texto)));
+    const texto = document
+        .getElementById("busca")
+        .value
+        .toLowerCase();
 
-    scrollParaSearch();
+    const filtrados = produtos.filter(produto =>
+        produto.nome.toLowerCase().includes(texto)
+    );
+
+    mostrarProdutos(filtrados);
 }
+
+/* ENTER funcionar */
+document.getElementById("busca")
+.addEventListener("keypress", function(e){
+    if(e.key === "Enter") buscarProduto();
+});
 
 const subFiltrosContainer = document.getElementById("sub-filtros");
 
