@@ -1,30 +1,23 @@
 const produtos = [
-    { nome: "Anel Prata", preco: 60, categoria: "joia", sub: "prata", img: "img/Anel_prata.jpeg" , descricao:"Joia folheada a ouro"},
-    { nome: "Anel Prata", preco: 60, categoria: "joia", sub: "prata", img: "img/anel_prata01.jpeg", descricao:"Joia folheada a ouro" },
-    { nome: "Argolas", preco: 60, categoria: "joia", sub: "prata", img: "img/argolas.jpeg", descricao:"Joia folheada a ouro" },
-    { nome: "Argolas", preco: 60, categoria: "joia", sub: "prata", img: "img/argola_01.jpeg" , descricao:"Joia folheada a ouro"},
-    { nome: "Brincos", preco: 60, categoria: "joia", sub: "prata", img: "img/brinco_prata01.jpeg", descricao:"Joia folheada a ouro" },
-    { nome: "Brincos", preco: 60, categoria: "joia", sub: "prata", img: "img/brinco.jpeg", descricao:"Joia folheada a ouro" },
-    { nome: "Colar", preco: 60, categoria: "joia", sub: "prata", img: "img/colar_prata.png", descricao:"Joia folheada a ouro" },
-    { nome: "Colar", preco: 60, categoria: "joia", sub: "prata", img: "img/colar_prata02.jpeg", descricao:"Joia folheada a ouro" },
-    { nome: "Colar", preco: 60, categoria: "joia", sub: "prata", img: "img/colar.jpeg", descricao:"Joia folheada a ouro" },
-    { nome: "Colar", preco: 60, categoria: "joia", sub: "prata", img: "img/colar01.jpeg", descricao:"Joia folheada a ouro" },
-    { nome: "Brincos Pares", preco: 60, categoria: "joia", sub: "prata", img: "img/pares_de_brincos.jpeg", descricao:"Joia folheada a ouro" },
-    { nome: "Piercing Nariz", preco: 60, categoria: "joia", sub: "prata", img: "img/piercing_nariz.jpeg", descricao:"Joia folheada a ouro" },
-    { nome: "Piercing", preco: 60, categoria: "joia", sub: "prata", img: "img/piercing_prata.jpeg", descricao:"Joia folheada a ouro" },
-    { nome: "Piercing", preco: 60, categoria: "joia", sub: "prata", img: "img/piercing_prta01.jpeg", descricao:"Joia folheada a ouro" },
-    { nome: "Piercing Tragus", preco: 60, categoria: "joia", sub: "prata", img: "img/piercing_tragus.jpeg", descricao:"Joia folheada a ouro" },
-    { nome: "Pulseira", preco: 60, categoria: "joia", sub: "prata", img: "img/pulseira.jpeg", descricao:"Joia folheada a ouro" },
+    { nome: "Anel Ponto De Luz Cristal", preco: 45, categoria: "joia", sub: "prata", img: "img/Anel_prata.jpeg" , descricao:"Prata 925, pedra de zircónia, Número 20"},
+    { nome: "Anel Ponto De Luz Rosa", preco: 55, categoria: "joia", sub: "prata", img: "img/anel_prata01.jpeg", descricao:"Prata 925, pedra de zircónia, Número 18" },
+    { nome: "Argola Redonda", preco:59, categoria: "joia", sub: "prata", img: "img/argola_01.jpeg" , descricao:"Prata 925, 53mm"},
+    { nome: "Argola Gota", preco: 49, categoria: "joia", sub: "prata", img: "img/brinco_prata01.jpeg", descricao:"Prata 925, 43mm" },
+    { nome: "Colar Choker", preco: 99, categoria: "joia", sub: "prata", img: "img/colar_prata02.jpeg", descricao:"Prata 925, Aro fino" },
+    { nome: "Colar Borboleta", preco: 109, categoria: "joia", sub: "prata", img: "img/colar01.jpeg", descricao:"Prata 925, 45cm" },
+    { nome: "Trio de Zircónia", preco: 59, categoria: "joia", sub: "prata", img: "img/pares_de_brincos.jpeg", descricao:"Prata 925" },
+    { nome: "Piercing Ponto de Luz", preco: 29, categoria: "joia", sub: "prata", img: "img/piercing_nariz.jpeg", descricao:"Prata 925" },
+    { nome: "Piercing Argola Cravejada", preco: 45, categoria: "joia", sub: "prata", img: "img/piercing_prta01.jpeg", descricao:"Prata 925, pedra de zircónia" },
+    { nome: "Piercing Ramo Zircónias", preco: 49, categoria: "joia", sub: "prata", img: "img/piercing_tragus.jpeg", descricao:"Prata 925" },
+    { nome: "Pulseira Borboleta ", preco: 99, categoria: "joia", sub: "prata", img: "img/pulseira.jpeg", descricao:"Prata 925" },
 
 
 
-
-
-    { nome: "Colar Folheado", preco: 80, categoria: "joia", sub: "folheado", img: "https://via.placeholder.com/200", descricao:"Joia folheada a ouro" },
+  /*  { nome: "Colar Folheado", preco: 80, categoria: "joia", sub: "folheado", img: "https://via.placeholder.com/200", descricao:"Joia folheada a ouro" },
     
     { nome: "Perfume Natura", preco: 120, categoria: "cosmetico", sub: "natura", img: "https://via.placeholder.com/200", descricao:"Joia folheada a ouro" },
     { nome: "Creme O Boticário", preco: 40, categoria: "cosmetico", sub: "oboticario", img: "https://via.placeholder.com/200", descricao:"Joia folheada a ouro" },
-    { nome: "Eudora Deo Colônia", preco: 80, categoria: "cosmetico", sub: "eudora", img: "https://via.placeholder.com/200", descricao:"Joia folheada a ouro" },
+    { nome: "Eudora Deo Colônia", preco: 80, categoria: "cosmetico", sub: "eudora", img: "https://via.placeholder.com/200", descricao:"Joia folheada a ouro" },*/
 ];
 
 function scrollProdutos() {
@@ -123,7 +116,7 @@ function buscarProduto() {
 
     mostrarProdutos(filtrados);
 }
-/* ENTER funcionar */
+
 document.getElementById("busca")
 .addEventListener("keydown", function(e){
     if (e.key === "Enter") {
