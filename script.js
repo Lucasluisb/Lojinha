@@ -15,9 +15,9 @@ const produtos = [
 
   /*  { nome: "Colar Folheado", preco: 80, categoria: "joia", sub: "folheado", img: "https://via.placeholder.com/200", descricao:"Joia folheada a ouro" },*/
     
-    { nome: "Lily Lumière", preco: 145.90, categoria: "cosmetico", sub: "oboticario", img: "img/lily_lumiere.jpeg", descricao:"Lily Lumière 250g" },
-    { nome: "Lily soleil", preco: 145.90, categoria: "cosmetico", sub: "oboticario", img: "img/lily_soleil.jpeg", descricao:"Lily Soleil 200g" },
-    { nome: "Lily Tradicional", preco: 145.90, categoria: "cosmetico", sub: "oboticario", img: "img/lily_tradiciolnal.jpeg", descricao:"Lily Tradicional 250g" },
+    { nome: "Lily Lumière", preco: 145.90, categoria: "cosmetico", sub: "oboticario", img: "img/lily lumirere.jpeg", descricao:"Lily Lumière 250g" },
+    { nome: "Lily soleil", preco: 145.90, categoria: "cosmetico", sub: "oboticario", img: "img/lily soleil.jpeg", descricao:"Lily Soleil 200g" },
+    { nome: "Lily Tradicional", preco: 145.90, categoria: "cosmetico", sub: "oboticario", img: "img/lily_tradicional.jpeg", descricao:"Lily Tradicional 250g" },
     { nome: "Glamour Secrets Black Intense", preco: 189.90, categoria: "cosmetico", sub: "oboticario", img: "img/glamour_secrets_black_intense.jpeg", descricao:"Desodorante Colônia 75ml" },
     { nome: "Glamour Glamour Myriad", preco: 189.90, categoria: "cosmetico", sub: "oboticario", img: "img/glamour_myriad.jpeg", descricao:"Desodorante Colônia 75ml" },
     { nome: "Glamour Diva", preco: 189.90, categoria: "cosmetico", sub: "oboticario", img: "img/glamour_diva.jpeg", descricao:"Desodorante Colônia 75ml" },
