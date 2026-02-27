@@ -5,7 +5,6 @@ const produtos = [
     { nome: "Argola Gota", preco: 49, categoria: "joia", sub: "prata", img: "img/brinco_prata01.jpeg", descricao:"Prata 925, 43mm" },
     { nome: "Colar Choker", preco: 99, categoria: "joia", sub: "prata", img: "img/colar_prata02.jpeg", descricao:"Prata 925, Aro fino" },
     { nome: "Colar Borboleta", preco: 109, categoria: "joia", sub: "prata", img: "img/colar01.jpeg", descricao:"Prata 925, 45cm" },
-    { nome: "Trio de Zircónia", preco: 59, categoria: "joia", sub: "prata", img: "img/pares_de_brincos.jpeg", descricao:"Prata 925" },
     { nome: "Piercing Ponto de Luz", preco: 29, categoria: "joia", sub: "prata", img: "img/piercing_nariz.jpeg", descricao:"Prata 925" },
     { nome: "Piercing Argola Cravejada", preco: 45, categoria: "joia", sub: "prata", img: "img/piercing_prta01.jpeg", descricao:"Prata 925, pedra de zircónia" },
     { nome: "Piercing Ramo Zircónias", preco: 49, categoria: "joia", sub: "prata", img: "img/piercing_tragus.jpeg", descricao:"Prata 925" },
