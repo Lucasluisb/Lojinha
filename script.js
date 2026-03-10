@@ -21,6 +21,11 @@ const produtos = [
     { nome: "Glamour Glamour Myriad", preco: 189.90, categoria: "cosmetico", sub: "oboticario", img: "img/glamour_myriad.jpeg", descricao:"Desodorante Colônia 75ml" },
     { nome: "Glamour Diva", preco: 189.90, categoria: "cosmetico", sub: "oboticario", img: "img/glamour_diva.jpeg", descricao:"Desodorante Colônia 75ml" },
     { nome: "Malbec Tradicional", preco: 209.90, categoria: "cosmetico", sub: "oboticario", img: "img/malbec_tradicional.jpeg", descricao:"Desodorante Colônia 100ml" },
+    { nome: "Kit La Victorie", preco: 99, categoria: "cosmetico", sub: "eudora", img: "img/Kit_La_Victorie.jpeg", descricao:"Body Spray 100ml, Creme Hidratante 200g" },
+    { nome: "Volpe", preco: 159, categoria: "cosmetico", sub: "eudora", img: "img/Volpe.jpeg", descricao:"" },
+    { nome: "Diva", preco: 149, categoria: "cosmetico", sub: "eudora", img: "img/Diva.jpeg", descricao:"" },
+    { nome: "Egeo blue", preco: 139, categoria: "cosmetico", sub: "oboticario", img: "img/egeo_blue.jpeg", descricao:"Desodorante Colônia 90ml" },
+    { nome: "Ìlia", preco: 160, categoria: "cosmetico", sub: "natura", img: "img/ilia.jpeg", descricao:"Desodorante Colônia 50ml" },
 ];
 
 function scrollProdutos() {
